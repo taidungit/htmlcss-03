@@ -231,7 +231,7 @@ line-height: 30px; /* 166.667% */
     margin-top: 170px;
     padding-bottom:170px;
 }
-.service-heading{
+.section-heading{
     color: #10375C;
 text-align: center;
 font-family: Sora;
@@ -241,7 +241,7 @@ font-weight: 600;
 line-height: 1.2; /* 120% */
 letter-spacing: -1px;
 }
-.service-desc{
+.section-desc{
 
     color: #575F66;
 font-family: Sora;
@@ -251,7 +251,6 @@ font-weight: 300;
 line-height: 1.6667; /* 166.667% */
 width: 468px;
 text-align: center;
-justify-content: center;
 margin:18px auto 0px;
 }
 .service-body{
@@ -315,4 +314,65 @@ display: inline-block;
 }
 .service__content{
     margin-top: 35px;
+}
+/* work */
+.work{
+    padding:100px 0px;
+    background-color: #F6FBFF;
+  
+}
+
+.work .section-heading{
+    text-align: start;
+}
+.work .section-desc{
+    text-align: start;
+    margin-left:0px;
+}
+.work-list{
+    margin-top: 86px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap:30px;
+}
+.work__item{
+    border: 16px solid #EAF6FF;
+    border-radius: 4px;
+    padding:43px 42px;
+}
+.work__title{
+    margin-top: 18px;
+    color: #10375C;
+font-family: Sora;
+font-size: 2.6rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.38462; /* 138.462% */
+}
+.work__desc{
+    margin-top: 28px;
+    color: #575F66;
+font-family: Sora;
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 300;
+line-height: 1.75; /* 175% */
+margin-bottom: 18px;
+}
+.work_more{
+    color: #2E80CE;
+font-family: Sora;
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.75; /* 175% */
+}
+.work_more:hover{
+    cursor: pointer;
+}
+.work__item:hover{
+    border-color: #2E80CE;
+    cursor: pointer;
+    transition:0.4s;
+    transform: translateY(-16px);
 }
