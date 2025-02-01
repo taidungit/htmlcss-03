@@ -13,6 +13,9 @@ body {
 :root {
     --primary-color: #10375c;
 }
+input,textarea,select{
+    font-family: inherit;
+}
 .btn:hover{
     opacity:0.8;
 }
@@ -655,4 +658,129 @@ background: #2E80CE;
 display: block;
 margin: 0 auto;
 margin-top: 18px;
+}
+/* footer */
+.footer{
+    margin-top: 170px;
+    background-color: #10375C;
+    padding-top:100px;
+    padding-bottom: 42px;
+}
+.footer__row{
+    display: grid;
+    grid-template-columns: 1fr 0.41fr 0.41fr 1fr;
+    column-gap: 78px;
+}
+.footer .desc{
+    color: #A9B3BB;
+font-family: "Open Sans";
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.75; /* 175% */
+margin-top: 21px;
+}
+.footer__heading{
+    color: #FFF;
+font-family: "Open Sans";
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.75; /* 175% */
+}
+.footer__link{
+    display: inline-block;
+    color: #A9B3BB;
+font-family: "Open Sans";
+font-size: 1.4rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.85714; /* 185.714% */
+margin-top: 10px;
+}
+.footer__heading2{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.75; /* 175% */
+    margin-top: 28px;
+}
+.footer__link:hover{
+    text-decoration: underline;
+}
+.footer__images{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.footer__images .icon{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #fff;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    color:#2E80CE;
+}
+.footer__images .icon:hover{
+background-color:#2E80CE ;
+color:white;
+}
+.footer-form__submit{
+    outline: none;
+    border:none;
+    border-radius: 4px;
+background: #2E80CE;
+color: #FFF;
+font-family: "Open Sans";
+font-size: 1.4rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.85714; /* 185.714% */
+cursor: pointer;
+}
+.footer-form__input{
+    padding:0 10px;
+outline: none;
+width: 212px;
+height: 46px;
+flex-shrink: 0;
+border-radius: 4px;
+border: 1px solid #406181;
+color:white;
+background-color: transparent;
+}
+.footer-form__input::placeholder{
+    color: #9CA8B1;
+    font-family: "Open Sans";
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+}
+.footer-form{
+    margin-top: 10px;
+    display: flex;
+    gap: 12px;
+}
+.no-copy{
+    color: #AAB3BA;
+text-align: center;
+font-family: "Open Sans";
+font-size: 1.4rem;
+font-style: normal;
+font-weight: 400;
+margin-top: 28px;
+}
+.no-copy::before{
+    content: "";
+    display: block;
+height: 1px;
+background: #406181;
+margin-bottom: 28px;
+}
+.footer__link1{
+    margin-top: 20px;
 }
