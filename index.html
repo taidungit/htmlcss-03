@@ -31,7 +31,7 @@
     
 
 </head>
-<body style="height:10000px">
+<body id="home" style="height:10000px">
     <div class="header fixed">
         <div class="container ">
             <!-- logo -->
@@ -48,16 +48,16 @@
              <nav class="navbar">
                 <ul class="navbar__list">
                     <li class="navbar__item active">
-                        <a href="#!" class="navbar__link">Home</a>
+                        <a href="#home" class="navbar__link">Home</a>
                     </li>
                     <li class="navbar__item">
-                        <a href="#!" class="navbar__link">Services</a>
+                        <a href="#services" class="navbar__link">Services</a>
                     </li>
                     <li class="navbar__item">
-                        <a href="#!" class="navbar__link">About</a>
+                        <a href="#work" class="navbar__link">About</a>
                     </li>
                     <li class="navbar__item">
-                        <a href="#!" class="navbar__link">Doctors</a>
+                        <a href="#doctor" class="navbar__link">Doctors</a>
                     </li>
                 </ul>
              </nav>
@@ -89,7 +89,7 @@
        </div>
     </header>
     <main>
-        <div class="service">
+        <div id="services" class="service">
             <div class="container">
                 <h2 class="section-heading">Our services</h2>
                 <div class="section-desc">Exceptional dental care for all ages. Your great smile begins with a great dentist.</div>
@@ -143,7 +143,7 @@
             </div>
         </div>
         <!-- Work -->
-         <section class="work">
+         <section id="work" class="work">
             <div class="container">
                 <h2 class="section-heading">How it works</h2>
                 <div class="section-desc">Exceptional dental care for all ages. Your great smile begins with a great dentist.</div>
@@ -169,6 +169,98 @@
                 </div>
             </div>
          </section>
+         <!-- Feature -->
+          <div class="feature">
+           <div class="container">
+                <div class="feature__body">
+                    <figure class="media">
+                        <img src="./assets/img/atikah-akhtar-XJptUS8nbhs-unsplash.jpg" alt="" class="feature__images">
+                        <img src="./assets/img/nate-johnston-UhVxAkKw8gQ-unsplash.jpg" alt="" class="feature__images-2">
+                    </figure>
+                    <section class="feature__content">
+                        <h2 class="section-heading">Take back your smile with shine.</h2>
+                        <div class="section-desc">If you’re missing multiple teeth due to decay, injury, or the natural aging process, dentures might be the perfect solution.</div>
+                        <a href="" class="btn">Learn More</a>
+                    </section>
+                </div>
+           </div>
+          </div>
+          <!-- Member-->
+           <section id="doctor" class="member">
+           <div class="container">
+                <h2 class="section-heading">Our virtual dentist</h2>
+                <div class="button"><a href="#!" class="btn">Meet our dentist</a></div>
+                <div class="member-list">
+                    <article class="member-item">
+                        <div class="member__bg">
+                            <img src="./assets/img/doctor-with-his-arms-crossed-white-background_ccexpress.svg" alt="" class="member__img">
+                        </div>
+                        <h3 class="member__title">Dr. Essence Page</h3>
+                        <div class="member__desc">DDS, California - Linda University</div>
+                    </article>
+                    <article class="member-item">
+                        <div class="member__bg">
+                            <img src="./assets/img/portrait-smiling-handsome-male-doctor-man_ccexpress.svg" alt="" class="member__img">
+                        </div>
+                        <h3 class="member__title">Dr. Essence Page</h3>
+                        <div class="member__desc">DDS, California - Linda University</div>
+                    </article>
+                    <article class="member-item">
+                        <div class="member__bg">
+                            <img src="./assets/img/hospital-healthcare-workers-covid-19-treatment-concept-young-doctor-scrubs-making-daily-errands-clinic-listening-patient-symptoms-look-camera-professional-physician-curing-diseases_ccexpress.svg" alt="" class="member__img">
+                        </div>
+                        <h3 class="member__title">Dr. Essence Page</h3>
+                        <div class="member__desc">DDS, California - Linda University</div>
+                    </article>
+                    <article class="member-item">
+                        <div class="member__bg">
+                            <img src="./assets/img/healthcare-workers-coronavirus-covid-19-pandemic-insurance-concept-close-up-serious-young-doctor-white-coat-glasses-listen-closely-patient-cross-arms-chest-holding-stethoscope_ccexpress 1.svg" alt="" class="member__img">
+                        </div>
+                        <h3 class="member__title">Dr. Essence Page</h3>
+                        <div class="member__desc">DDS, California - Linda University</div>
+                    </article>
+                </div>
+                <div class="member__action">
+                    <button class="member__wrap">
+                        <svg width="6" height="12" viewBox="0 0 6 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.5 1L0.5 6L5.5 11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            
+                            
+                    </button>
+                      <button class="member__wrap">
+                        <svg width="6" height="12" viewBox="0 0 6 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.5 1L5.5 6L0.5 11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            
+                    </button>
+                </div>
+           </div>
+           </section>
+           <!-- Install app -->
+            <section class="install">
+                <div class="container">
+                    <div class="install__inner">
+                        <section class="install__image">
+                            <figure>
+                                <img src="./assets/img/Rectangle.svg" alt="" class="images">
+                            </figure>
+                        </section>
+                        <section class="install__info">
+                            <h2 class="section-heading">Take back your smile with dentures</h2>
+                            <p class="section-desc">If you’re missing multiple teeth due to decay, injury, or the natural aging process, dentures might be the perfect solution.</p>
+                            <div class="install__row">
+                                <button>
+                                    <img src="./assets/img/Google Play outline badge.svg" alt="" class="google-play">
+                                </button>
+                                <button>
+                                    <img src="./assets/img/App Store outline badge.svg" alt="" class="app-store">
+                                </button>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </section>
     </main>
 </body>
 </html>
